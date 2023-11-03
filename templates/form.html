@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ heading }}</h1>
+    <form method="post" action="/">
+        <label for="plot_size">Enter your desired plot size:</label>
+        <input type="number" step="1" name="plot_size" id="pz">
+        <input type="submit" value="Go">
+      </form>
+      <h5>Predicted Price:</h5>
+      <p>The predicted plot size is {{ prediction }}$.</p> 
+</body>
+</html>
+
+
